@@ -1,0 +1,36 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyc
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+
+# Entornos virtuales
+venv/
+env/
+.conda/
+.env/
+.env.*
+
+# --- PyCharm ---
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# OS específicos
+.DS_Store
+Thumbs.db
+
+# Archivos de test o exportaciones
+*.coverage
+htmlcov/
+.coverage.*
+.pytest_cache/
+
+# Configuraciones locales
+*.env
